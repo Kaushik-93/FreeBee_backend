@@ -144,3 +144,25 @@ EST_FRAMEWORK = {
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     ]
 }
+CORS_ALLOWED_ORIGINS=[
+    "http://localhost:3000",
+    "http://localhost:3001",
+    "http://localhost:3002",
+    "http://localhost:3003",
+    "http://localhost:8000"
+]
+
+
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:3000',
+]
+SESSION_COOKIE_SECURE = False
+CSRF_COOKIE_SECURE = False
+SECURE_SSL_REDIRECT = False
+# DEFAULT_FROM_EMAIL = "Freebee Alerts <noreplycontentinfo@gmail.com>"
+EMAIL_HOST="smtp.gmail.com"
+EMAIL_PORT=587
+EMAIL_USE_TLS =True
+EMAIL_BACKEND="django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST_USER = 'fbee8197@gmail.com'
+EMAIL_HOST_PASSWORD = 'isgaqrczbgljtupp'

@@ -21,4 +21,5 @@ class Orphanage(models.Model):
     mobile_no = models.IntegerField()
     landline_no = models.IntegerField()
     email=models.EmailField()
+    homeType=models.TextField()
     image = models.ImageField(upload_to='images') 
