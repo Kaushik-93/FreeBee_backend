@@ -114,7 +114,7 @@ def external_email_service(request):
     pincode = request.data['pincode']
     mobileno = request.data['mobile_no']
     altmobileno = request.data['alt_mobile_no']
-    email=request.data['email'],
+    email=request.data['email']
     items = request.data['items']
     vehicles = request.data['vehicle_type']
     orphanage_email=request.data['orphanage_email']

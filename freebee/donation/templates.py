@@ -14,6 +14,7 @@ Please find your Credentials below -
         <td><b>Pincode</b></td>
         <td><b>Mobile No</b></td>
         <td><b>Alt-Mobile No</b></td>
+        <td><b>Email</b></td>
         <td><b>Items</b></td>
         <td><b>Vehicle</b></td>
     </tr>
